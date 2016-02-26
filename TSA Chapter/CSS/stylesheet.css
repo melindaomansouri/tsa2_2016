@@ -1,0 +1,23 @@
+ body {
+		margin: 0;
+		padding: 0;
+		border: 0;
+}
+
+
+
+.students {	
+		width: 80%;
+}
+
+.redrec {
+		background-color: #ed1c24;
+}
+
+.tsa {
+		height: 10%;
+		width: 20%;
+		margin: 0;
+		padding: 10px;
+		border: 0;
+}
