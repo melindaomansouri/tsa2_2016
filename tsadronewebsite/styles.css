@@ -1,91 +1,121 @@
 body {
 	font-family: 'Open Sans', sans-serif;
-	padding: 10px;
-	width: 100%;
-	height: 100%;
 	margin: 20px auto;
 	background-color: grey;
-	float: center;
 	
 }
 
 #page  {
-	width: 960px;
+	/* effects everything but footer */
     margin: 0 auto;
-	float: center;
-	padding-bottom: 590px;
 	
 }
 
+
 header {
+	/* Top Navigation */
 	background-color: #262626;
-	width: 50.5%;
+	width: 100%;
 	height: 50px;
+	display: inline-block;
 	box-shadow: 0px 1px 50px #5E5E5E;
-	float: center;
+	float: left;
+	padding: 0px;
 	position: fixed;
 	top: 0px;
-	bottom: 3px;
+	bottom:5px;
 	
 }
 
 #mimg {
+	/* no longer in use */
+	display:inline-block;
 	float: center;
-	height: 100%;
-	width: 100%;
+	height: 50%;
+	width: 50%;
 	
 }
 
 #content {
-	width: 290px;
+	/* left column item */
+	display:inline-block;
+	width: 590px;
 	float: left;
 	padding: 5px 15px;
-	text-align: left;
+	margin: 0px 5px 5px 5px;
+	text-align: center;
 	height: 50px;
 	
 }
 
 #middle {
-	width: 294px;
+	/* middle column item */
+	display:inline-block;
+	width: 590px;
 	float: left;
-	padding: 1px 15px;
+	padding: 5px 15px;
 	margin: 0px 5px 5px 5px;
-	text-align: left;
+	text-align: center;
 	height: 50px;
 	
 }
 
 #sidebar {
-	width: 270px;
-	padding: 5px 15px;
-	float: right;
-	text-align: left;
+	/* right column item */
+	display:inline-block;
+	width: 590px;
+	float: left;
+	margin: 5px 5px 5px 5px;
+	text-align: center;
 	height: 50px;
 	
 }
 
 footer {
+	/* bottom footer */
 	background-color:#262626;
-	padding: 0 15px;
-	position:fixed;
-	width: 48.5%;
-	float: bottom;
+	position: absolute;
+	width: 100%;
+	right: 0;
 	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	float: bottom;
 	text-align: left;
-	clear:both;
+	clear: both;
+	line-height: 50px;
 	height: 50px;
+	color: grey;
 	
+}
+/* Slider Start */
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
 }
 
-#bottom {
-	width: 960px;
-    margin: 0 auto;
-	float: center;
-	
-	
+	div#slider { overflow: hidden; }
+	div#slider figure img { width: 20%; float: left; }
+	div#slider figure { 
+		position: relative;
+		width: 250%;
+		margin-top: 30px;
+		left: 0;
+		text-align: left;
+		font-size: 0;
+		animation: 30s slidy infinite; 
 }
+/* Slider End */
 
 ul {
+	/* Header items */
     position: fixed;
     top: 5px;
     width: 100%;
