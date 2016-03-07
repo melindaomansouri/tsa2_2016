@@ -9,10 +9,16 @@
 
 .students {	
 		width: 80%;
+		display: block;
+    margin-left: auto;
+    margin-right: auto
+		
 }
 
 .redrec {
 		background-color: #ed1c24;
+		position: absolute;
+		width: 100%;
 }
 
 .tsa {
@@ -21,6 +27,7 @@
 		margin: 0;
 		padding: 10px;
 		border: 0;
+<<<<<<< HEAD
 }
 /*CSS for nav bar*/
 .nav ul {
@@ -64,4 +71,33 @@ li {
 		margin-right: 10px;		
 	}
 
+=======
+		
+
+}
+
+.logo {
+	float: left;
+}
+
+.text {
+	position: absolute;
+    left: 0;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 19px;
+	color:white;
+
+
+}
+
+.engineeringsolo {
+	
+	width: 80%;
+	display: inline;
+    margin-left: -25%;
+    margin-right: -25%;
+	position: left;
+>>>>>>> origin/master
 }
