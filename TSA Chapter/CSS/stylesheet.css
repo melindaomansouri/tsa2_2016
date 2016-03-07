@@ -5,6 +5,31 @@
 		border: 0;
 }
 
+
+
+.students {	
+		width: 80%;
+		display: block;
+    margin-left: auto;
+    margin-right: auto
+		
+}
+
+.redrec {
+		background-color: #ed1c24;
+		position: absolute;
+		width: 100%;
+}
+
+.tsa {
+		height: 10%;
+		width: 20%;
+		margin: 0;
+		padding: 10px;
+		border: 0;
+<<<<<<< HEAD
+}
+<<<<<<< HEAD
 /*CSS for nav bar*/
 .nav ul {
 	list-style: none;
@@ -46,7 +71,6 @@ li {
 		Display: inline-block;
 		margin-right: 10px;		
 	}
-<<<<<<< HEAD
 =======
 /*CSS for students pic and top of home page*/
 .person {
@@ -58,34 +82,18 @@ li {
 		width: 20%;
 }
 >>>>>>> origin/master
+
 =======
-
-/*CSS for Home Page*/
->>>>>>> origin/master
-
-.students {	
-		width: 80%;
-		display: block;
-    margin-left: auto;
-    margin-right: auto
 		
+
 }
-
-.redrec {
-		background-color: #ed1c24;
-		position: absolute;
-		width: 100%;
+/*CSS for competition page pic*/
+.competitionready {
+	width: 80%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-.tsa {
-		height: 10%;
-		width: 20%;
-		margin: 0;
-		padding: 10px;
-		border: 0;
-}
-
-
 .logo {
 	float: left;
 }
@@ -102,40 +110,6 @@ li {
 
 }
 
-/*CSS for Class Pages*/
-
-.person {
-	width: 15%;
-		display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.spacing {
-	padding-top: 2%;
-	padding-bottom: 2%;
-	background-color: #ed1c24;
-		width: 100%;
-}
-
-h1 { 
-	color: #ffffff;
-	font-size: 60px;
-	text-align: center;
-	font-family: Tahoma, Geneva, sans-serif;
-	}
- 
- header {
-	 padding-bottom: 8%;
- }
- 
- .logopage {
-	 width: 50%;
-	 height: 50%;
-	 float: left;
- }
-
-
 .engineeringsolo {
 	
 	width: 80%;
@@ -143,4 +117,10 @@ h1 {
     margin-left: -25%;
     margin-right: -25%;
 	position: left;
-
+<<<<<<< HEAD
+>>>>>>> origin/master
+}
+=======
+}
+>>>>>>> origin/master
+>>>>>>> origin/master
