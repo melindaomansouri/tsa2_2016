@@ -1,4 +1,5 @@
  body {
+	 	font-family: Verdana, Geneva, sans-serif;	
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -20,4 +21,47 @@
 		margin: 0;
 		padding: 10px;
 		border: 0;
+}
+/*CSS for nav bar*/
+.nav ul {
+	list-style: none;
+	background-color: #FFFFFF;
+	text-align: left;
+	float: rigth;
+	
+}
+.nav {
+	line-height: 40px;
+	height: 40px;
+	float: right;	
+}
+li {
+    list-style-type: none;
+	border-bottom: 1px solid #753F23;
+	padding: 15px;
+	
+}
+.nav a {
+	text-decoration: none;
+	color: #000000;
+	display: block;
+	transition: .3s background-color;	
+}
+.nav a:hover {
+	text-decoration: underline;	
+}
+.nav a.active {
+	text-decoration: underline;
+	color: #000000;
+	cursor: default;	
+}
+
+@media screen and (min-width: 600px) {
+	.nav li {
+		border-bottom: none;
+		font-size: 15px;
+		Display: inline-block;
+		margin-right: 10px;		
+	}
+
 }
