@@ -2,15 +2,16 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	margin: 20px auto;
 	background-color: grey;
-	
+	width: 100%;
+	min-width: 760px;
 }
+
 
 #page  {
 	/* effects everything but footer */
     margin: 0 auto;
 	
 }
-
 
 header {
 	/* Top Navigation */
@@ -23,7 +24,8 @@ header {
 	padding: 0px;
 	position: fixed;
 	top: 0px;
-	bottom:5px;
+	bottom:10%;
+	z-index: 100; /* Keeps header over other items */
 	
 }
 
@@ -39,7 +41,7 @@ header {
 #content {
 	/* left column item */
 	display:inline-block;
-	width: 590px;
+	width: 25%;
 	float: left;
 	padding: 5px 15px;
 	margin: 0px 5px 5px 5px;
@@ -51,8 +53,9 @@ header {
 #middle {
 	/* middle column item */
 	display:inline-block;
-	width: 590px;
-	float: left;
+	width: 40%;
+	margin-left: 28%;
+    margin-right: 28%;
 	padding: 5px 15px;
 	margin: 0px 5px 5px 5px;
 	text-align: center;
@@ -63,29 +66,31 @@ header {
 #sidebar {
 	/* right column item */
 	display:inline-block;
-	width: 590px;
-	float: left;
-	margin: 5px 5px 5px 5px;
+	width: 25%;
+	float: right;
+	position: absolute;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
 	text-align: center;
 	height: 50px;
+	z-index: 3;
 	
 }
 
-footer {
+ footer {
 	/* bottom footer */
 	background-color:#262626;
-	position: absolute;
+	position: relative;
 	width: 100%;
-	right: 0;
-	bottom: 0;
 	left: 0;
 	padding: 1rem;
-	float: bottom;
+	min-height: 100%;
 	text-align: left;
 	clear: both;
 	line-height: 50px;
-	height: 50px;
+	height: 4em;
 	color: grey;
+	z-index: 50
 	
 }
 /* Slider Start */
@@ -101,8 +106,12 @@ footer {
 100% { left: -400%; }
 }
 
-	div#slider { overflow: hidden; }
-	div#slider figure img { width: 20%; float: left; }
+	div#slider {
+		overflow: hidden; 
+		}
+	div#slider figure img {
+		width: 20%; float: left;
+		}
 	div#slider figure { 
 		position: relative;
 		width: 250%;
@@ -111,6 +120,7 @@ footer {
 		text-align: left;
 		font-size: 0;
 		animation: 30s slidy infinite; 
+		z-index:2;
 }
 /* Slider End */
 

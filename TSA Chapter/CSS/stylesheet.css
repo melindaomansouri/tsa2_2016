@@ -35,7 +35,7 @@
 	list-style: none;
 	background-color: #FFFFFF;
 	text-align: left;
-	float: rigth;
+	float: right;
 	
 }
 .nav {
@@ -110,6 +110,70 @@ li {
 
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body { margin: 0; } 
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: center; }
+div#slider figure { 
+  position: relative;
+  width: 100%;
+  margin: 0;
+  left: 0;
+  text-align: center;
+  font-size: 0;
+  animation: 20s slidy infinite; 
+}
+
+=======
+/*CSS for Class Pages*/
+
+.person {
+	width: 15%;
+		display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spacing {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: #ed1c24;
+		width: 100%;
+}
+
+h1 { 
+	color: #ffffff;
+	font-size: 60px;
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	}
+ 
+ header {
+	 padding-bottom: 8%;
+ }
+ 
+ .logopage {
+	 width: 50%;
+	 height: 50%;
+	 float: left;
+ }
+
+
+>>>>>>> origin/master
 .engineeringsolo {
 	
 	width: 80%;
@@ -118,9 +182,13 @@ li {
     margin-right: -25%;
 	position: left;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/master
 }
 =======
 }
+>>>>>>> origin/master
+=======
+
 >>>>>>> origin/master
 >>>>>>> origin/master
