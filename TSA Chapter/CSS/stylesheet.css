@@ -29,6 +29,7 @@
 		border: 0;
 <<<<<<< HEAD
 }
+<<<<<<< HEAD
 /*CSS for nav bar*/
 .nav ul {
 	list-style: none;
@@ -70,6 +71,17 @@ li {
 		Display: inline-block;
 		margin-right: 10px;		
 	}
+=======
+
+.person {
+		margin-top: 5%;
+		margin-left: 10%;
+		padding: 0;
+		border: 0;
+		height: 20%;
+		width: 20%;
+}
+>>>>>>> origin/master
 
 =======
 		
@@ -99,5 +111,10 @@ li {
     margin-left: -25%;
     margin-right: -25%;
 	position: left;
+<<<<<<< HEAD
 >>>>>>> origin/master
 }
+=======
+}
+>>>>>>> origin/master
+>>>>>>> origin/master
