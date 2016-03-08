@@ -71,6 +71,13 @@ li {
 		Display: inline-block;
 		margin-right: 10px;		
 	}
+	.students {	
+		width: 80%;
+		display: block;
+    margin-left: auto;
+    margin-right: auto
+		
+}
 =======
 /*CSS for students pic and top of home page*/
 .person {
