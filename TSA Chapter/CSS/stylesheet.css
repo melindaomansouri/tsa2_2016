@@ -5,31 +5,6 @@
 		border: 0;
 }
 
-
-
-.students {	
-		width: 80%;
-		display: block;
-    margin-left: auto;
-    margin-right: auto
-		
-}
-
-.redrec {
-		background-color: #ed1c24;
-		position: absolute;
-		width: 100%;
-}
-
-.tsa {
-		height: 10%;
-		width: 20%;
-		margin: 0;
-		padding: 10px;
-		border: 0;
-<<<<<<< HEAD
-}
-<<<<<<< HEAD
 /*CSS for nav bar*/
 .nav ul {
 	list-style: none;
@@ -71,29 +46,32 @@ li {
 		Display: inline-block;
 		margin-right: 10px;		
 	}
-=======
-/*CSS for students pic and top of home page*/
-.person {
-		margin-top: 5%;
-		margin-left: 10%;
-		padding: 0;
-		border: 0;
-		height: 20%;
-		width: 20%;
-}
->>>>>>> origin/master
+/*Close Nav bar*/
 
-=======
-		
+/*Home Page*/
 
-}
-/*CSS for competition page pic*/
-.competitionready {
-	width: 80%;
-	display: block;
+.students {	
+		width: 80%;
+		display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto
+		
 }
+
+.redrec {
+		background-color: #ed1c24;
+		position: absolute;
+		width: 100%;
+}
+
+.tsa {
+		height: 10%;
+		width: 20%;
+		margin: 0;
+		padding: 10px;
+		border: 0;
+}
+
 .logo {
 	float: left;
 }
@@ -106,39 +84,21 @@ li {
     text-align: center;
     font-size: 19px;
 	color:white;
-
-
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-@keyframes slidy {
-0% { left: 0%; }
-20% { left: 0%; }
-25% { left: -100%; }
-45% { left: -100%; }
-50% { left: -200%; }
-70% { left: -200%; }
-75% { left: -300%; }
-95% { left: -300%; }
-100% { left: -400%; }
-}
+/*Close Home Page*/
 
-body { margin: 0; } 
-div#slider { overflow: hidden; }
-div#slider figure img { width: 20%; float: center; }
-div#slider figure { 
-  position: relative;
-  width: 100%;
-  margin: 0;
-  left: 0;
-  text-align: center;
-  font-size: 0;
-  animation: 20s slidy infinite; 
-}
+/*CSS for competition page pic*/
 
-=======
+.competitionready {
+	width: 80%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Close Competition Page*/
+
+
 /*CSS for Class Pages*/
 
 .person {
@@ -146,7 +106,6 @@ div#slider figure {
 		display: block;
     margin-left: auto;
     margin-right: auto;
-	border-top: 10%;
 }
 
 .spacing {
@@ -167,29 +126,6 @@ h1 {
 	 padding-bottom: 8%;
  }
  
- .logopage {
-	 width: 50%;
-	 height: 50%;
-	 float: left;
- }
+/*Close Class Page*/
 
 
->>>>>>> origin/master
-.engineeringsolo {
-	
-	width: 80%;
-	display: inline;
-    margin-left: -25%;
-    margin-right: -25%;
-	position: left;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> origin/master
-}
-=======
-}
->>>>>>> origin/master
-=======
-
->>>>>>> origin/master
->>>>>>> origin/master
