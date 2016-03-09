@@ -1,7 +1,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	margin: 20px auto;
-	background-color: grey;
+	background-color: #e8e8e8;
 	width: 100%;
 	min-width: 760px;
 }
@@ -15,7 +15,8 @@ body {
 
 header {
 	/* Top Navigation */
-	background-color: #262626;
+	background-color: #333333;
+	text-color: #990100;
 	width: 100%;
 	height: 50px;
 	display: inline-block;
@@ -86,7 +87,7 @@ header {
  footer {
 	/* bottom footer */
 	height:60px;
-	background-color:#262626;
+	background-color:#990100;
 	position: fixed;
 	width: 100%;
 	bottom: 0;
@@ -112,10 +113,13 @@ header {
 
 	div#slider {
 		overflow: hidden; 
+		
 }
 		
 	div#slider figure img {
-		width: 20%; float: center;
+		width: 20%; 
+		float: center;
+		
 }
 		
 	div#slider figure { 
@@ -149,12 +153,13 @@ ul{
 li {
     float: left;
 	
+	
 }
 
 
 li a {
     display: block;
-    color: grey;
+    color: #f6f6f6;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
