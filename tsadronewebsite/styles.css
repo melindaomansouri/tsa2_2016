@@ -77,22 +77,26 @@ header {
 	
 }
 
+#pushing {
+	padding-bottom:60px;
+	
+}
+
+
  footer {
 	/* bottom footer */
+	height:60px;
 	background-color:#262626;
-	position: relative;
+	position: fixed;
 	width: 100%;
+	bottom: 0;
 	left: 0;
-	padding: 1rem;
-	min-height: 100%;
 	text-align: left;
-	clear: both;
-	line-height: 50px;
-	height: 4em;
 	color: grey;
 	z-index: 50
 	
 }
+
 /* Slider Start */
 @keyframes slidy {
 0% { left: 0%; }
@@ -108,10 +112,12 @@ header {
 
 	div#slider {
 		overflow: hidden; 
-		}
+}
+		
 	div#slider figure img {
-		width: 20%; float: left;
-		}
+		width: 20%; float: center;
+}
+		
 	div#slider figure { 
 		position: relative;
 		width: 250%;
@@ -121,10 +127,12 @@ header {
 		font-size: 0;
 		animation: 30s slidy infinite; 
 		z-index:2;
+		
 }
 /* Slider End */
 
-ul {
+
+ul{
 	/* Header items */
     position: fixed;
     top: 5px;
@@ -137,10 +145,12 @@ ul {
 	
 }
 
+
 li {
     float: left;
 	
 }
+
 
 li a {
     display: block;
@@ -148,5 +158,56 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+	
+}
+
+
+#innovation {
+	margin-left: 20%;
+    margin-right: 20%;
+	text-align: center;
+	height: 50px;
+	float: center;
+	position: absolute;
+	
+}
+
+
+#solution {
+	margin-left: 20%;
+    margin-right: 20%;
+	text-align: center;
+	height: 50px;
+	float: center;
+	position: absolute;
+	
+}
+
+
+#uses {
+	margin-left: 20%;
+    margin-right: 20%;
+	text-align: center;
+	height: 50px;
+	float: center;
+	position: absolute;
+	
+}
+
+
+h2 {
+	text-align: center;
+	text-decoration: underline;
+	
+}
+
+
+h3 {
+	text-align: left;
+	
+}
+
+#wrapper {
+	min-height:100%;
 	
 }
