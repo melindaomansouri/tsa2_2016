@@ -3,6 +3,7 @@
 		margin: 0;
 		padding: 0;
 		border: 0;
+		background-color: none;
 }
 
 /*CSS for nav bar*/
@@ -46,7 +47,7 @@ li {
 		Display: inline-block;
 		margin-right: 10px;		
 	}
-<<<<<<< HEAD
+
 	.students {	
 		width: 80%;
 		display: block;
@@ -54,20 +55,9 @@ li {
     margin-right: auto
 		
 }
-=======
-/*CSS for students pic and top of home page*/
-.person {
-		margin-top: 5%;
-		margin-left: 10%;
-		padding: 0;
-		border: 0;
-		height: 20%;
-		width: 20%;
-}
->>>>>>> origin/master
-=======
+
 /*Close Nav bar*/
->>>>>>> origin/master
+
 
 /*Home Page*/
 
