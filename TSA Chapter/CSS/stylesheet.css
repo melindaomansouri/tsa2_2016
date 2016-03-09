@@ -143,6 +143,24 @@ h1 {
 	 padding-bottom: 8%;
  }
  
+ .digdescript {
+	 float:left;
+	 width:50%;
+	 clear:both;
+ }
+ 
+ .diginstuctor {
+	 float:left;
+	 width:15%;
+	 clear:both;
+ }
+ 
+ .digawards {
+	 float:right;
+	 width:50%;
+	 clear:both;
+ }
+ 
 /*Close Class Page*/
 
 
