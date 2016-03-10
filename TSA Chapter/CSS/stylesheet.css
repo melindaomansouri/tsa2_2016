@@ -147,18 +147,21 @@ h1 {
 	 float:left;
 	 width:50%;
 	 clear:both;
+	
  }
  
  .diginstuctor {
-	 float:left;
-	 width:15%;
+	 float:right;
+	 width:50%;
 	 clear:both;
  }
  
  .digawards {
 	 float:right;
-	 width:50%;
+	 width:100%;
 	 clear:both;
+
+	 
  }
  
 /*Close Class Page*/
