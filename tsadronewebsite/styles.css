@@ -4,6 +4,7 @@ body {
 	background-color: #e8e8e8;
 	width: 100%;
 	min-width: 760px;
+	overflow-x: hidden;
 }
 
 
@@ -37,6 +38,12 @@ header {
 	height: 50%;
 	width: 50%;
 	
+}
+
+main {
+    position: relative;
+    left: 23.5%;
+    
 }
 
 #content {
@@ -94,7 +101,13 @@ header {
 	left: 0;
 	text-align: left;
 	color: grey;
-	z-index: 50
+	z-index: 50;
+	line-height: 30px;
+	
+}
+
+p {
+	color: #f6f6f6;
 	
 }
 
@@ -113,22 +126,28 @@ header {
 
 	div#slider {
 		overflow: hidden; 
-		
+		width: 80%;
+		max-width: 1000px;
 }
 		
 	div#slider figure img {
 		width: 20%; 
-		float: center;
+		height: auto;
+		float: left;
 		
 }
 		
 	div#slider figure { 
 		position: relative;
-		width: 250%;
+		width: 500%;
 		margin-top: 30px;
-		left: 0;
+		margin-bottom: 0;
+		margin-left: 0;
+		margin-right: 0;
+		padding:0;
 		text-align: left;
 		font-size: 0;
+		left: 0;
 		animation: 30s slidy infinite; 
 		z-index:2;
 		
@@ -209,6 +228,12 @@ h2 {
 
 h3 {
 	text-align: left;
+	
+}
+
+h4 {
+	text-align: left;
+	
 	
 }
 
