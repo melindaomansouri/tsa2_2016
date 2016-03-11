@@ -49,39 +49,47 @@ main {
 #content {
 	/* left column item */
 	display:inline-block;
-	width: 25%;
+	width: 33%;
 	float: left;
 	padding: 5px 15px;
-	margin: 0px 5px 5px 5px;
+	position: absolute;
 	text-align: center;
-	height: 50px;
+	height: 70px;
+	box-sizing: border-box;
 	
 }
 
 #middle {
 	/* middle column item */
 	display:inline-block;
-	width: 40%;
-	margin-left: 28%;
+	width: 33%;
+	margin-left: 15%;
     margin-right: 28%;
+	position: relative;
+	float:center;
 	padding: 5px 15px;
-	margin: 0px 5px 5px 5px;
+	margin: 0px 5px 5px 10px;
 	text-align: center;
-	height: 50px;
+	height: 70px;
+	font-size: 13;
+	box-sizing: border-box;
+	right:-33%;
 	
 }
 
 #sidebar {
 	/* right column item */
 	display:inline-block;
-	width: 25%;
+	width: 33%;
 	float: right;
-	position: absolute;
+	box-sizing: border-box;
+	position: relative;
 	padding: 5px 15px;
 	margin: 0px 5px 5px 5px;
 	text-align: center;
-	height: 50px;
+	height: 70px;
 	z-index: 3;
+	right: -1.3%;
 	
 }
 
@@ -128,6 +136,7 @@ p {
 		overflow: hidden; 
 		width: 80%;
 		max-width: 1000px;
+		
 }
 		
 	div#slider figure img {
@@ -147,10 +156,9 @@ p {
 		padding:0;
 		text-align: left;
 		font-size: 0;
-		left: 0;
 		animation: 30s slidy infinite; 
 		z-index:2;
-		
+		left: 23.5%;
 }
 /* Slider End */
 
@@ -187,8 +195,10 @@ li a {
 
 
 #innovation {
+	margin-top: 30%;
 	margin-left: 20%;
     margin-right: 20%;
+	top: 0;
 	text-align: center;
 	height: 50px;
 	float: center;
@@ -198,8 +208,10 @@ li a {
 
 
 #solution {
+	margin-top: 30%;
 	margin-left: 20%;
     margin-right: 20%;
+	top: 0;
 	text-align: center;
 	height: 50px;
 	float: center;
@@ -209,8 +221,10 @@ li a {
 
 
 #uses {
+	margin-top: 30%;
 	margin-left: 20%;
     margin-right: 20%;
+	top: 0;
 	text-align: center;
 	height: 50px;
 	float: center;
