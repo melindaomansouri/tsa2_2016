@@ -46,6 +46,8 @@ main {
     
 }
 
+
+
 #content {
 	/* left column item */
 	display:inline-block;
@@ -193,6 +195,18 @@ li a {
 	
 }
 
+#first {
+	margin-top: 30%;
+	margin-left: 27%;
+    margin-right: 60%;
+	top: 0;
+	text-align: center;
+	height: 50px;
+	float: center;
+	position: absolute;
+	right:-33%;
+	
+}
 
 #innovation {
 	margin-top: 30%;
