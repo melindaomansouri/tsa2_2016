@@ -73,6 +73,7 @@ li {
 		background-color: #ed1c24;
 		position: absolute;
 		width: 100%;
+		z-index:1;
 }
 
 .tsa {
@@ -98,6 +99,9 @@ li {
 }
 .slider1 {
 	
+}
+.blurb {
+	text-align: center;
 }
 /*Close Home Page*/
 
